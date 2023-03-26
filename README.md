@@ -1,8 +1,8 @@
-__Printf__
+#Printf
 
 This is a simple implementation of printf function that formats and prints data
 
-__Description
+#Description
 
 The _printf() function produces output according to a format which is described below. This function write its output to the stdout, the standard output stream. Returns the count of printed characters when the function is successful and -1 when the function fails.
 
@@ -20,22 +20,22 @@ The available convertion specifiers are:
 * %R: Prints the Rot13 interpretation of a string
 
 
-__Usage__
+#Usage
 
-All the files are to be compiled on Ubuntu 20.04
-Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c
-Include the "main.h" header file on the functions using the _printf()
+* All the files are to be compiled on Ubuntu 20.04
+* Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c
+* Include the "main.h" header file on the functions using the _printf()
 
 
-__Example__
+#Example
 ```
-`#include "main.h"`
-`#include <stdio.h>`
-`/**`
-`* main - Entry point`
-`*`
-`* Return: Always 0`
-`*/`
+#include "main.h"
+#include <stdio.h>
+/**
+* main - Entry point
+*
+* Return: Always 0
+*/
 int main(void)
 {
 	int a;
